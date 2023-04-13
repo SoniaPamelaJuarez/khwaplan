@@ -41,7 +41,7 @@ const Hola = () => {
             </div>
             </div>
             <div class="div-btn-serv">
-                <button class="btn btn-primary btn-serv" type="button">Ver nuestros SERVICIOS</button>
+                <a href="#servicios" class="btn btn-primary btn-serv" type="button">Ver nuestros SERVICIOS</a>
             </div>
         </main>
     )

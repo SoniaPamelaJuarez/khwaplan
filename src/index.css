@@ -32,6 +32,16 @@ code {
   src: url(./assets/fonts/Morning\ Memories-Regular.otf);
 }
 
+@font-face {
+  font-family: 'frutiger bold';
+  src: url(./assets/fonts/Frutiger_bold.ttf);
+}
+
+@font-face {
+  font-family: 'frutiger';
+  src: url(./assets/fonts/Frutiger.ttf);
+}
+
 :root{
   --color-1:#14c6ac;
   --color-2: #03366d; 
@@ -41,4 +51,5 @@ code {
   --color-6: #fa0000;
   --color-7: #feb454;
   --color-8: #e66e4c;
+  --color-9: #161616;
 }

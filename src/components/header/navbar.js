@@ -1,5 +1,4 @@
 import './navbar.css';
-import khwaIcono from '../../assets/khwaIcono.png';
 import khwaLogo from '../../assets/khwaLogo.png';
 
 
@@ -14,7 +13,7 @@ const Navbar = () => {
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
+                    <a class="nav-link" href="#servicios">Servicios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Equipo</a>
