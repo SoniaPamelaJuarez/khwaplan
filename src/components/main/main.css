@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+
+.hola{
+    font-family: 'mm regular';
+    text-align: left;
+}
+
+.subt h3{
+    font-family: 'mm italic';
+    color: var(--color-4);
+    font-size: 230%;
+}
+
+.subt h1{
+    font-size: 400%;
+}
+.isologo-div{
+    margin-top:2%;
+    width: 50%;
+}
+
+.isologo-img{
+    width: 40%;
+}
+
+.btn-contact{
+    width: 100%;
+    font-size: large;
+    letter-spacing: 3px;
+    background-color: var(--color-4);
+    border: 1px solid var(--color-4);
+}
+
+.btn:hover{
+    background-color: var(--color-1);
+    border: 1px solid var(--color-1);
+}
+
+.iconos-div{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos-div img{
+    width: 60%;
+}
+
+.iconos-div img:hover{
+    width: 55%;
+}
+
+.div-btn-serv{
+    margin-top: 1%;
+    width: 100%;
+}
+
+.btn-serv{
+    width: 20%;
+    font-family: 'mm regular';
+    font-size:x-large;
+    letter-spacing: 3px;
+    background-color: white;
+    color: var(--color-4);
+    border: 1px solid var(--color-1);
+}
+
+.btn-serv:hover{
+    background-color: var(--color-4);
+    border: 1px solid var(--color-4);
+}

@@ -1,0 +1,69 @@
+.div-father{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    padding: 3%;
+}
+
+.servicios{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'mm regular';
+    border: 1px solic red;
+    margin-top: 2%;
+}
+
+.tarjeta-div{
+    width: 15rem;
+    height: auto;
+    background-color: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5%;
+    padding: 0.3%;
+}
+
+.div-img{
+    width: 15rem;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.btn-servi{
+    width: 50%;
+    background-color: var(--color-5);
+    border: none;
+    color: var(--color-2);
+    font-size: larger;
+}
+
+.btn-servi:hover{
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
+.color-lila{
+    background-color: var(--color-4);
+    color: #ffff;
+}
+
+.titulo-serv{
+    margin-top: 2%;
+    text-align: left;
+}
+
+.titulo-serv h1{
+    font-size: 300%;
+    font-family: 'mm regular';
+    text-align: center;
+}
+
+.titulo-serv img{
+    width: 1%;
+}

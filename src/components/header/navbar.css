@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'mm regular';
+    font-size:x-large;
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: auto;
+}
+
+.img-logo{
+    width: 60%;
+}
+
+.nav-logo{
+    width:20%;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: var(--color-2);
+}

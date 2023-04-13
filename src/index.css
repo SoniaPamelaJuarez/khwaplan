@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'mm script';
+  src: url(./assets/fonts/Morning\ Memories-Script.otf);
+}
+
+@font-face {
+  font-family: 'mm doodles';
+  src: url(./assets/fonts/Morning\ Memories-Doodles.otf);
+}
+
+@font-face {
+  font-family: 'mm italic';
+  src: url(./assets/fonts/Morning\ Memories-Italic.otf);
+}
+
+@font-face {
+  font-family: 'mm regular';
+  src: url(./assets/fonts/Morning\ Memories-Regular.otf);
+}
+
+:root{
+  --color-1:#14c6ac;
+  --color-2: #03366d; 
+  --color-3: #FFFFFF;
+  --color-4: #605bd4;
+  --color-5: #0099fa;
+  --color-6: #fa0000;
+}
