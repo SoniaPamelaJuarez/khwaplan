@@ -23,9 +23,6 @@ const Navbar = () => {
                     <a class="nav-link" href="#">Contacto</a>
                 </li>
             </ul>
-            <div class="iconos-rrss">
-                
-            </div>
         </nav>
         
         )

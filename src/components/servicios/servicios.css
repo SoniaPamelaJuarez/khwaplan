@@ -1,18 +1,21 @@
 .div-father{
     display: flex;
     flex-direction: column;
-    margin-top: 4%;
     padding: 3%;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .servicios{
+    overflow-x: hidden;
     display: flex;
     width: 100%;
+    height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'mm regular';
-    border: 1px solic red;
     margin-top: 2%;
 }
 
@@ -20,6 +23,7 @@
     width: 15rem;
     height: auto;
     background-color: var(--color-1);
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,4 +70,16 @@
 
 .titulo-serv img{
     width: 1%;
+}
+
+.white{
+    background-color: #ffff;
+}
+
+.color-yellow{
+    background-color: var(--color-7);
+}
+
+.color-bronce{
+    background-color: var(--color-8);
 }

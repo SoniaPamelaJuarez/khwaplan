@@ -1,7 +1,7 @@
 .main{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-top: 3%;
     justify-content: space-evenly;
@@ -59,7 +59,8 @@
 }
 
 .div-btn-serv{
-    margin-top: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     width: 100%;
 }
 

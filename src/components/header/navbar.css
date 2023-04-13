@@ -6,7 +6,8 @@
     font-size:x-large;
     border-bottom: 1px solid black;
     height: 100px;
-    width: auto;
+    width: 100%;
+    overflow: hidden;
 }
 
 .img-logo{
@@ -21,5 +22,5 @@
     color: black;
 }
 .nav-link:hover{
-    color: var(--color-2);
+    color: var(--color-4);
 }

@@ -1,5 +1,6 @@
 import './servicios.css';
 import yourlogo from '../../assets/yourlogo.jpg';
+import nereaFotovideo from '../../assets/nereaFotovideo.gif'
 
 const Servicios = () => {
     return (
@@ -15,49 +16,49 @@ const Servicios = () => {
             <div class="div-img card">
                 <img src={yourlogo} alt='img1'/>
             </div>
-            <div class="tarjeta-div card color-lila">
+            <div class="tarjeta-div card color-bronce">
                 <h2>DISEÑO DE LOGO</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />
             </div>
-            <div class="tarjeta-div card">
+            <div class="tarjeta-div card color-yellow">
                 <h2>VIDEOS PUBLICITARIOS & CORPORATIVOS</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />
             </div>
-            <div class="tarjeta-div card">
+            <div class="tarjeta-div card color-lila">
                 <h2>ANIMACIONES</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />
             </div>
-            <div class="tarjeta-div card color-lila">
+            <div class="tarjeta-div card">
                 <h2>SITIO WEB</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />
             </div>
-            <div class="tarjeta-div card">
+            <div class="tarjeta-div card color-bronce">
                 <h2>SOCIAL MEDIA</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />
             </div>
-            <div class="tarjeta-div card">
+            <div class="tarjeta-div card color-yellow">
                 <h2>FOTOS & </h2> <h2>VIDEOS DE PRODUCTO/ SERVICIO</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
-            <div class="tarjeta-div card">
-                <img />
+            <div class="tarjeta-div card white">
+                <img src={nereaFotovideo} alt='gif'/>
             </div>
-            <div class="tarjeta-div card">
+            <div class="tarjeta-div card color-lila">
                 <h2>ANUNCIOS</h2>
                 <a class="btn btn-primary btn-servi" href="#" role="button">Ver más</a>
             </div>
