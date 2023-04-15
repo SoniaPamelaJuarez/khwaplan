@@ -39,7 +39,7 @@ const Servicios = () => {
             </div>
             <div class="tarjeta-div card">
                 <h2>SITIO WEB</h2>
-                <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
+                <a class="btn btn-primary btn-mas" href="#sitioWeb" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card">
                 <img />

@@ -4,3 +4,31 @@
     height: auto;
     color: var(--color-3);
 }
+
+.card-div{
+    margin: 2%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-web{
+    margin-right: 2%;
+    width: 30%;
+    border: 2px solid var(--color-3);
+}
+
+.card-web img{
+}
+
+.body-web{
+    padding: 1%;
+}
+
+.titulo-web{
+    padding-top: 2%;
+}
+
+.font-first{
+    font-family: 'mm regular';
+}
