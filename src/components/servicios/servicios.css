@@ -18,7 +18,7 @@
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
     font-family: 'mm regular';
     margin-top: 2%;
 }
@@ -32,7 +32,24 @@
     align-items: center;
     justify-content: center;
     margin: 0.5%;
-    padding: 0.3%;
+    padding: 2%;
+}
+
+.tarjeta-div img{
+    width:100%;
+    border: none;
+}
+
+.tarjeta-div h1{
+    font-size: 400%;
+}
+
+.tarjeta-div h2{
+    font-size: 300%;
+}
+
+.img-sinpad{
+    padding: 0%;
 }
 
 .btn-mas{

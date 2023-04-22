@@ -42,6 +42,7 @@ const Hola = () => {
             </div>
             <div class="div-btn-serv">
                 <a href="#servicios" class="btn btn-primary btn-serv" type="button">Ver nuestros SERVICIOS</a>
+                <a href="#" class="btn btn-primary btn-serv" type="button">¿Sos streamer/youtuber?Clickea aquí</a>
             </div>
         </main>
     )

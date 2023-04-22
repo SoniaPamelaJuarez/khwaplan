@@ -10,56 +10,47 @@ const Servicios = () => {
             </div>
         <div class="servicios">
             <div class="tarjeta-div card">
-                <h2>IDENTIDAD DE MARCA</h2>
+                <h1>IDENTIDAD DE MARCA</h1>
                 <a class="btn btn-primary btn-mas" href="#identidad" role="button">Ver más</a>
             </div>
-            <div class="tarjeta-div card">
-                <img />
-            </div>
             <div class="tarjeta-div card color-bronce">
-                <h2>DISEÑO DE LOGO</h2>
+                <h1>DISEÑO DE LOGO</h1>
                 <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
             </div>
-            <div class="tarjeta-div card">
-                <img />
+            <div class="tarjeta-div card black img-sinpad">
+                <img class="card" src={flexz}/>
+            </div>
+            <div class="tarjeta-div card black img-sinpad">
+                <img class="card" src={flexz}/>
             </div>
             <div class="tarjeta-div card color-yellow">
-                <h2>VIDEOS PUBLICITARIOS & CORPORATIVOS</h2>
-                <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
-            </div>
-            <div class="tarjeta-div card">
-                <img />
+                <h1>SITIO WEB</h1>
+                <a class="btn btn-primary btn-mas" href="#sitioWeb" role="button">Ver más</a>
             </div>
             <div class="tarjeta-div card color-lila">
+                <h1>SOCIAL MEDIA</h1>
+                <a class="btn btn-primary btn-mas" href="#social" role="button">Ver más</a>
+            </div>
+            <div class="tarjeta-div card">
+                <h2>VIDEOS PUBLICITARIOS & CORPORATIVOS</h2>
+                <a class="btn btn-primary btn-mas" href="#sitioWeb" role="button">Ver más</a>
+            </div>
+            <div class="tarjeta-div card color-bronce">
                 <h2>ANIMACIONES</h2>
                 <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
             </div>
-            <div class="tarjeta-div card black">
-                <img src={flexz} alt='img'/>
+            <div class="tarjeta-div card black img-sinpad">
+                <img class="card" src={flexz}/>
             </div>
-            <div class="tarjeta-div card">
-                <h2>SITIO WEB</h2>
-                <a class="btn btn-primary btn-mas" href="#sitioWeb" role="button">Ver más</a>
-            </div>
-            <div class="tarjeta-div card">
-                <img />
-            </div>
-            <div class="tarjeta-div card color-bronce">
-                <h2>SOCIAL MEDIA</h2>
-                <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
-            </div>
-            <div class="tarjeta-div card">
-                <img />
+            <div class="tarjeta-div card black img-sinpad">
+                <img class='card' src={nereaFotovideo} alt='gif'/>
             </div>
             <div class="tarjeta-div card color-yellow">
                 <h2>FOTOS & </h2> <h2>VIDEOS DE PRODUCTO/ SERVICIO</h2>
                 <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
             </div>
-            <div class="tarjeta-div card black">
-                <img src={nereaFotovideo} alt='gif'/>
-            </div>
             <div class="tarjeta-div card color-lila">
-                <h2>ANUNCIOS</h2>
+                <h1>ANUNCIOS</h1>
                 <a class="btn btn-primary btn-mas" href="#" role="button">Ver más</a>
             </div>
         </div>
