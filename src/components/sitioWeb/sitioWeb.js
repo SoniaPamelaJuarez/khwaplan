@@ -1,8 +1,7 @@
 import './sitioWeb.css';
-import nereaFotovideo from '../../assets/nereaFotovideo.gif';
-import webProgramming from '../../assets/webProgramming.jpg';
-import webDesign from '../../assets/webDesign.jpg';
-import webAud from '../../assets/webAud.jpg';
+import webProgramming from '../../assets/webProgramming.png';
+import webDesign from '../../assets/webDesign.png';
+import webAud from '../../assets/webAud.png';
 
 const SitioWeb = () =>{
     return (
@@ -16,7 +15,7 @@ const SitioWeb = () =>{
                     <div class="card-body body-web">
                         <h3 class="card-title font-first">Diseño Web</h3>
                         <p class="card-text font-secondary">Juntos podemos lograr un diseño personalizado que se adapte a tus necesidades</p>
-                        <a href="#" class="btn btn-primary font-secondary">Quiero más información</a>
+                        <a href="#" class="btn btn-primary font-secondary color-lila">Quiero más información</a>
                     </div>
                 </div>
                 <div class="card-web">
@@ -24,7 +23,7 @@ const SitioWeb = () =>{
                     <div class="card-body body-web">
                         <h3 class="card-title font-first">Creación de Web</h3>
                         <p class="card-text font-secondary">Muestra tus servicios y atrae más clientes con una landing page funcional & visualmente atractiva </p>
-                        <a href="#" class="btn btn-primary font-secondary">Quiero más información</a>
+                        <a href="#" class="btn btn-primary font-secondary color-lila">Quiero más información</a>
                     </div>
                 </div>
                 <div class="card-web">
@@ -32,7 +31,7 @@ const SitioWeb = () =>{
                     <div class="card-body body-web">
                         <h3 class="card-title font-first">Auditoría Web</h3>
                         <p class="card-text font-secondary">¿Ya tienes una web pero no tiene la funcionalidad o el diseño que te representa? Nosotros podemos ayudarte a crear la página que se adapte a tus necesidades</p>
-                        <a href="#" class="btn btn-primary font-secondary">Quiero más información</a>
+                        <a href="#" class="btn btn-primary font-secondary color-lila">Quiero más información</a>
                     </div>
                 </div>
             </div>

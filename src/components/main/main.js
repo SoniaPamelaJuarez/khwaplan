@@ -7,7 +7,7 @@ import khwaGif from '../../assets/khwaGif.gif';
 
 const Hola = () => {
     return(
-        <main>
+        <main id="main">
             <div class="main">
             <div class="hola">
                 <div class="subt">

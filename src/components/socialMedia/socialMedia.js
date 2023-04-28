@@ -1,15 +1,20 @@
+import React from 'react';
 import './socialMedia.css';
 import SocialMediaCard from './socialMediaCard';
-import SocialMediaServices from './socialMediaServices';
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
+import sm1 from '../../assets/sm1.png'
 
 const SocialMediaPage = () => {
     return (
         <div id="social" className="social-media-page">
             <h1><mark>Social Media</mark></h1>
-            <h5>Ya tienes tu identidad de Marca lista para arrancar y quieres comenzar a publicar contenido en tus RRSS pero no tienes mucha idea de <mark>¿CÓMO?</mark>, o simplemente quieres un <mark>cambio renovador</mark> para tu feed? Entonces estas en el <mark>lugar correcto</mark>, estos planes son ideales para tí. No dudes en contactarnos para que tengamos una reunión y hablemos sobre tus objetivos y espectativas!</h5>
+            <h5>Ya tienes tu <a href='#identidad' data-tooltip-id="my-tooltip" data-tooltip-content="¿Qué es una Identidad de Marca?">Identidad de Marca</a> lista para arrancar y quieres comenzar a publicar contenido en tus RRSS pero no tienes mucha idea de <mark className='mark-verde'>¿CÓMO?</mark>, o simplemente quieres un <mark className='mark-verde'>cambio renovador</mark> para tu feed? Entonces estas en el <mark className='mark-verde'>lugar correcto</mark>, estos planes son ideales para tí. No dudes en contactarnos para que tengamos una reunión y hablemos sobre tus objetivos y espectativas!
+            <Tooltip id='my-tooltip'/>
+            </h5> 
             <div className="cards-social">
                 <SocialMediaCard
-                image="https://ejemplo.com/imagen1.jpg"
+                image= {sm1}
                 title="Contenido para RRSS"
                 description="Creación de contenido, incluye:"
                 services={[
@@ -21,7 +26,7 @@ const SocialMediaPage = () => {
                 ]}
                 />
                 <SocialMediaCard
-                image="https://ejemplo.com/imagen2.jpg"
+                image={sm1}
                 title="Manejo de RRSS"
                 services={[
                     'Creación de contenido para redes sociales',
